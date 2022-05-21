@@ -8,7 +8,7 @@
 }
 
 body{font-family: 'League Spartan', sans-serif;
-    font-family: 'Lexend Deca', sans-serif;padding-top:30px;
+    font-family: 'Lexend Deca', sans-serif;padding-top:10px;
     font-size: 15px;min-height: 100vh;display: flex;flex-direction:column;place-items: center;place-content: center;margin: 0px;background:var(--Very-light-gray-background-headings-buttons)}
 h1{color:var(--Very-light-gray-background-headings-buttons)}
 main{display: grid;grid-template-columns: repeat(3, 1fr);grid-template-rows: minmax(100px, auto);border-radius: 15px;}
