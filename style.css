@@ -8,14 +8,14 @@
 }
 
 body{font-family: 'League Spartan', sans-serif;
-    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;padding-top:30px;
     font-size: 15px;min-height: 100vh;display: flex;place-items: center;place-content: center;margin: 0px;background:var(--Very-light-gray-background-headings-buttons)}
 h1{color:var(--Very-light-gray-background-headings-buttons)}
 main{background: orange;display: grid;grid-template-columns: repeat(3, 1fr);grid-template-rows: minmax(100px, auto);border-radius: 15px;}
-main>div{width: 200px;padding: 40px;}
+main>div{width: 230px;padding: 60px 50px;}
 main h2 {color: var(--Very-light-gray-background-headings-buttons);font-family: 'League Spartan', sans-serif;font-weight: 700;text-transform: uppercase;}
 main p{color: var(--Transparent-white-paragraphs);    font-family: 'Lexend Deca', sans-serif;font-weight: 400;line-height: 27px;}
-main>div .button{width: 150px;padding: 10px;text-align: center;border-radius: 30px;background: var(--Very-light-gray-background-headings-buttons);margin-top: 120px;transition: all .5s linear;border: 1px solid var(--Very-light-gray-background-headings-buttons)}
+main>div .button{width: 150px;padding: 10px;text-align: center;border-radius: 30px;background: var(--Very-light-gray-background-headings-buttons);margin-top: 100px;transition: all .5s linear;border: 1px solid var(--Very-light-gray-background-headings-buttons)}
 main div.Sedans{background: var(--Bright-orange);border-radius: 15px 0px 0px 15px;}
 main div.Sedans .button{color: var(--Bright-orange);}
 main div.SUVs{background: var(--Dark-cyan);}
