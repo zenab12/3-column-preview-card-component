@@ -41,7 +41,7 @@ main div.Sedans{border-radius: 15px 15px 0px 0px;}
 main div.Luxury{border-radius: 0px 0px 15px 15px;}
 
 }
-@media(min-width: 775px) and (max-width: 900px)
+@media(min-width: 775px) and (max-width: 990px)
 {
     main>div{width: 170px;padding: 40px;}
 
