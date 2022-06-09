@@ -10,7 +10,7 @@
 body{font-family: 'League Spartan', sans-serif;
     font-family: 'Lexend Deca', sans-serif;
     font-size: 15px;min-height: 100vh;display: flex;flex-direction:column;place-items: center;place-content: center;margin: 0px;background:var(--Very-light-gray-background-headings-buttons)}
-h1{color:var(--Very-light-gray-background-headings-buttons)}
+h1{position:absolute;opacity:0;color:var(--Very-light-gray-background-headings-buttons)}
 main{display: grid;grid-template-columns: repeat(3, 1fr);grid-template-rows: minmax(100px, auto);border-radius: 15px;}
 main>div{width: 210px;padding: 60px 50px;}
 main h2 {color: var(--Very-light-gray-background-headings-buttons);font-family: 'League Spartan', sans-serif;font-weight: 700;text-transform: uppercase;}
